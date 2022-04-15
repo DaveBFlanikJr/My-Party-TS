@@ -84,7 +84,7 @@ const AddToList: React.FC<IProps> = ({people, setPeople}) => {
       />
       <button
         className="AddtoList-btn"
-        onClick={handleClick}
+        onClick={handleClick} //Just adding comment to push
       >
         Add to List
       </button>
